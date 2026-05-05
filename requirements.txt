@@ -1,2 +1,5 @@
 aiohttp>=3.9
 python-dotenv>=1.0
+# polymarket-clob-client  # pip install py-clob-client
+# web3>=6.0
+# tavily-python>=0.2      # pip install tavily-python
