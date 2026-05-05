@@ -24,9 +24,9 @@ function StatCard({
   label, value, sub, accent, pulse, icon,
 }: {
   label: string; value: string | number; sub?: string;
-  accent?: "green" | "red" | "amber" | "purple"; pulse?: boolean; icon: string;
+  accent?: "green" | "red" | "amber" | "purple" | "cyan"; pulse?: boolean; icon: string;
 }) {
-  const colourMap = { green: "#00ff88", red: "#ff4757", amber: "#ffa502", purple: "#a855f7" };
+  const colourMap = { green: "#00ff88", red: "#ff4757", amber: "#ffa502", purple: "#a855f7", cyan: "#00d4ff" };
   const colour = accent ? colourMap[accent] : "#00ff88";
 
   return (
